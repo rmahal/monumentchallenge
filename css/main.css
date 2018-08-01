@@ -41,6 +41,7 @@ h2 > a{
 
 h1 + h2{
     font-size: 28px;
+    line-height: 0em;
 }
 
 h3{
@@ -63,6 +64,7 @@ p{
     color: #5C5F65;
     margin-top: 10px;
     margin-right: 70px;
+    padding-top: 0px;
 }
 
 img + p::first-letter{
@@ -79,6 +81,7 @@ h4{
     border-bottom-style: groove;
     border-color: lightgrey;
     border-width: 1px;
+    color: lightgrey;
 }
 h4 > a{
     text-align: center;
@@ -91,8 +94,20 @@ footer > nav > a{
     margin-left: 0px;
     margin-right: 0px;
     text-decoration: none;
+    border-right: 1px groove lightgrey;
+    border-left-width: 2px;
 }
 
 footer > nav {
     color: #E0E0E2;
+}
+
+a:hover { 
+    background-color: grey;
+    color:white;
+    font-size: 150%;
+}
+
+nav +p{
+    color: lightgray;
 }
